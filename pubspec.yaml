@@ -11,6 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  generic_bloc_provider: ^2.1.1
   google_fonts: ^4.0.3
 
 dev_dependencies:

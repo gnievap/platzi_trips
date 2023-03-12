@@ -1,7 +1,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
+
+import 'User/bloc/bloc_user.dart';
 import 'travels.dart';
 
 
@@ -22,9 +25,14 @@ class MainApp extends StatelessWidget {
          statusBarBrightness: Brightness.light,
        )
     );
-    return  const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Travels(),
+    return BlocProvider(
+      bloc: UserBloc(),
+      child: const  MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Travel app',
+        home:  Travels(),
+      ), 
       );
+
   }
 }
