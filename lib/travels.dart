@@ -1,7 +1,8 @@
-import 'package:basic_app/screens/home_screen.dart';
-import 'package:basic_app/screens/profile_screen.dart';
-import 'package:basic_app/screens/search_places_screen.dart';
+
 import 'package:flutter/material.dart';
+import 'package:basic_app/Place/ui/screens/search_places_screen.dart';
+import 'Place/ui/screens/home_screen.dart';
+import 'User/ui/screens/profile_screen.dart';
 
 class Travels extends StatefulWidget {
   const Travels({super.key});

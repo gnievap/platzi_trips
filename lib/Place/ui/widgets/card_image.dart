@@ -1,4 +1,4 @@
-import 'package:basic_app/screens/small_button.dart';
+import 'package:basic_app/widgets/small_button.dart';
 import 'package:flutter/material.dart';
 
 class CardImage extends StatelessWidget {

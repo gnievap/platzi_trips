@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'user_info.dart';
-import 'button_bar.dart';
+import '../widgets/user_info.dart';
+import '../widgets/button_bar.dart';
 
 class ProfileHeader extends StatelessWidget {
   const ProfileHeader({super.key});
@@ -31,7 +31,7 @@ class ProfileHeader extends StatelessWidget {
               title
             ],
           ),
-          UserInfo('assets/img/ann.jpg', 'Anahí Salgado','anahi@platzi.com'),
+          UserInfo('assets/img/profile_pic1.jpg', 'Filomena Acosta','filos@gmail.com'),
           ButtonsBar()
         ],
       ),

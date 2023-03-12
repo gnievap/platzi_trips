@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'screens/travels.dart';
+import 'travels.dart';
 
 
 void main() {

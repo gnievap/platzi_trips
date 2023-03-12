@@ -1,7 +1,8 @@
-import 'package:basic_app/screens/review_lists.dart';
+
 import 'package:flutter/material.dart';
 
-import 'description_place_screen.dart';
+import '../widgets/description_place_screen.dart';
+import '../widgets/review_lists.dart';
 import 'header.dart';
 
 class HomeScreen extends StatelessWidget {

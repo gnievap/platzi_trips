@@ -1,6 +1,8 @@
-import 'package:basic_app/screens/card_image_list.dart';
-import 'package:basic_app/screens/gradient_back.dart';
+
 import 'package:flutter/material.dart';
+
+import '../../../widgets/gradient_back.dart';
+import '../widgets/card_image_list.dart';
 
 class Header extends StatelessWidget {
   const Header({super.key});
